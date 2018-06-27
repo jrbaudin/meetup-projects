@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="68" height="69" viewBox="0 0 68 69">
+    <defs>
+        <linearGradient id="c" x1="50%" x2="50%" y1="0%" y2="99.055%">
+            <stop offset="3.205%" stop-opacity=".3"/>
+            <stop offset="100%" stop-opacity=".125"/>
+        </linearGradient>
+        <path id="b" d="M46.576 93.504C40.29 87.268 36.4 78.652 36.4 69.136c0-10.565 5.317-22.993 16.877-29.401 11.56-6.409 14.74-2.549 21.036 2.924 5.315 4.62 2.343-7.997 9.1-5.762 4.292 1.42 8.048 4.27 8.221 4.37a34.7 34.7 0 0 1 11.246 13.82c.072.212.14.426.21.64 2.898 8.78-6.997 8.499-18.743 8.499h-6.525c-.626 0-1.508 0-2.63.282-.351.088-.806 1.92 3.147 3.055 3.953 1.134 4.886.129 4.886 1.579 0 2.9-3.877 4.427-8.489 3.95-4.612-.476-9.051-4.395-9.051-4.395-1.837 1.313-3.282 3.644-3.228 7.798.106 8.147 6.374 12.326 12.952 13.067 8.148.918 15.311-5.267 12.99-9.572-.848-1.571-3.604-2.87-5.648-.668-1.164 1.254-1.69 2.02-2.506 1.832-1.009-.232-2.117-1.402.52-4.871 3.062-4.028 11.448-4.55 15.464 1.06 4.747 6.627-.953 25.977-25.085 26.255-9.594.11-18.28-3.858-24.568-10.094zM89.01 49.148c0-1.523-1.244-2.757-2.78-2.757-1.535 0-2.78 1.234-2.78 2.757 0 1.523 1.245 2.757 2.78 2.757 1.536 0 2.78-1.234 2.78-2.757z"/>
+        <filter id="a" width="101.5%" height="103%" x="-.7%" y="-.7%" filterUnits="objectBoundingBox">
+            <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.280344203 0"/>
+        </filter>
+        <filter id="d" width="113.4%" height="114.9%" x="-6.7%" y="-6.7%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceAlpha" result="shadowBlurInner1" stdDeviation="3"/>
+            <feOffset dy="3" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+            <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.105355525 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd" transform="translate(-36 -36)">
+        <use fill="#000" filter="url(#a)" xlink:href="#b"/>
+        <use fill="url(#c)" xlink:href="#b"/>
+        <use fill="#000" filter="url(#d)" xlink:href="#b"/>
+    </g>
+</svg>
