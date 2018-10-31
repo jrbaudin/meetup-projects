@@ -1,0 +1,8 @@
+version: '3'
+services:
+  meetup-fetcher:
+    build:
+      context: .
+    environment:
+      - NODE_ENV
+      - MEETUP_API_KEY
