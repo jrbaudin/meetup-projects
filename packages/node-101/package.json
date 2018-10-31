@@ -1,0 +1,21 @@
+{
+  "name": "meetup-fetcher",
+  "version": "1.0.0",
+  "description": "Get meetups",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "meetup"
+  ],
+  "author": "Joel Baudin <joel.baudin88@gmail.com>",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "jest": "^23.6.0"
+  },
+  "dependencies": {
+    "dotenv": "^6.1.0",
+    "superagent": "^4.0.0-beta.5"
+  }
+}
